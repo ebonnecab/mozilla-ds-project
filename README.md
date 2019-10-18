@@ -23,7 +23,7 @@ I started off measuring correlation between the numerical data and the target. A
 This method gave us some useful information but didn't fully explain the relationship between all the columns and the sales price. 
 
 ### Feature Engineering
-I split the data into training and testing sets to use a few modules from sklearn to measure feature importance. Because of the mixed datatypes, I split them into categories, did certain datapreprocessing work for different columns and used different techniques to see which feature was holding the most weight. The results are visible in the heatmaps below.
+I split the data into training and testing sets to use a few modules from sklearn to measure feature importance. Because of the mixed datatypes, I split them into categories and used different techniques to see which feature was holding the most weight. The results are visible in the heatmaps below.
 
 #### Top Multi-variate Features < 25 categories - Mutual Information Regression Module
 ![Graph](https://github.com/ebonnecab/mozilla-ds-project/blob/master/graph3.png "MI Regression")
