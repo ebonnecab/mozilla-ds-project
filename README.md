@@ -1,5 +1,5 @@
 # Initial Contribution Pt 1
-The purpose of this project is to first figure out which features best describe the sale price and then train a model to accurately predict the sales price based upon the features.
+The purpose of this project is to first figure out which features best describe the sale price and then train a model to accurately predict the sales price based upon the most relevant features.
 
 ![Graph](https://github.com/ebonnecab/mozilla-ds-project/blob/master/graph1.png "Distribution of Sale Price")
 
