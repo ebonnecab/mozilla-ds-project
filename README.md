@@ -13,7 +13,7 @@ The purpose of this project is to first figure out which features best describe 
 - Jupyter Notebooks
 
 ## Summary
-There were about 80 possible choices that I had to narrow down to one feature. I did so by, first examining and cleaning the data. Off the bat, there were some features that had too many missing values or didn't have a strong enough relationship with the target to best describe it. 
+There were about 80 possible choices that I had to narrow down to one feature. I did so by, first examining and cleaning the data. Off the bat, there were some features that had too many missing values or didn't have a strong enough relationship with the target to best describe it. I eliminated those and proceeded to use other methods to measure the relationship of the features to the sales price.
 
 ### Correlation
 I started off measuring correlation between the numerical data and the target. A few features stood out such as overall quality and the above ground living area.
