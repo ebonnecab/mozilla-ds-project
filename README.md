@@ -38,7 +38,7 @@ I split the data into training and testing sets to use a few modules from sklear
 ![Graph](https://github.com/ebonnecab/mozilla-ds-project/blob/master/graph6.png "Gradient Boosting Regressor")
 
 ## Conclusion
-Each of the features that stood out to me were more or less influential but the main feature that seemed to strongly describe the sales price is Overall Quality. I think there are some exceptions in the dataset, but for the most part I see strong growth in the sales price as the quality of the house improves. It may also take in multiple factors that make it a well rounded way to predict how expensive the house will be.
+Each of the features that stood out to me were more or less influential but the main feature that seemed to strongly describe the sales price is Overall Quality. I think there are some exceptions in the dataset, but for the most part I see strong growth in the sales price as the quality of the house improves. I'm not sure what the criteria was for measuring overall quality, but it is probably based upon multiple factors, making it a well rounded way to predict how expensive the house will be.
 
 #### Overall Quality x Sales Price
 ![Graph](https://github.com/ebonnecab/mozilla-ds-project/blob/master/graph7.png "Overall Quality Boxplot")
