@@ -181,9 +181,4 @@ for model in models:
 ```
 
 ## Conclusion Part Two
-With the selected features, each model scored fairly well aside from the Elastic Net.
-The Gradient Boosting Regressor has the highest R2 score of .89, but that doesn't mean it's the best model for this problem. More complex models can actually lead to overfitting because the model will conform to the data.
-
-I am hesitant to use the simple Linear Regression model because it is easily throwed by multicollinearity and outliers. Sklearn recommends Ridge or Lasso as a more advanced estimator for regression problems because they implement regularization to help prevent overfitting. The main benefit of Lasso regression over Ridge Regression is that it penalizes irrelevant variables. With this type of dataset, I can see that being quite useful because it was somewhat difficult to discern which features truly matter or not. Even though they both scored very similarly, this put Lasso Regression at the top of the list for me.
-
-In conclusion, I would recommend using Lasso Regression based upon the scores above which I cross validated, and because it does a good job of dealing with multivariate data while quieting some of the noise caused by low impact features. 
+With the selected features, each model scored fairly well aside from the Elastic Net. I chose Lasso Regression because it implements regularization which penalizes irrelevant features. I also chose it based upon the scores that I cross validated, and because it does a good job of dealing with multivariate data while quieting some of the noise caused by low impact features. 
