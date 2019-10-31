@@ -49,7 +49,7 @@ The purpose of the second portion of this project was to choose a regression mod
 ## Summary
 Finding the right model to predict the sales price based upon 80 features was a little tricky. Once again, I was faced with the task of deciding which features actually describe the sales price before I could even begin to choose a model. Using sklearn modules, I created a pipeline that returned the most relevant features. I was then able to test them on my models and decide which one was best for this problem.
 
-### Model Selection
+### Regression Models
 I chose six models based upon research, Sklearn documentation, and prior experience. Each came with their own strengths and weaknesses.
 
 **Simple Linear Regression**
