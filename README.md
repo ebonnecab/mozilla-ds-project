@@ -5,7 +5,7 @@ The purpose of this project is to first figure out which features best describe 
 
 
 ## Technologies Used
-- Sci-kit learn
+- Scikit-learn
 - Numpy
 - Seaborn
 - Pandas
